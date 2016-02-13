@@ -1,0 +1,224 @@
+form select
+{     
+-webkit-appearance: none;			
+}
+.share-map {
+width: 1000px;
+height: 550px;
+}
+.map-view {
+position: relative;
+z-index: 1;
+float: left;
+}
+.switch-mousewwheel label {
+    display: inline-block;
+}
+.map-tools {
+position: relative;
+z-index: 1;
+float: left;
+background: #F0F0F0; 
+}
+.infowindows {
+    width: 255px;
+    height: auto;
+    max-height: 325px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+#map-sponsor {
+max-height: 100px;
+max-width: 640px;
+}
+#map-canvas {
+height: 550px; width: 980px; 
+background: url("/Images/loading-large.gif") no-repeat center center #eee;
+}
+.map-search {
+border-left: 2px solid #E0E0E0;
+display: none;
+width: 216px;
+}
+#map-search-result {
+z-index:10; float: left; height: 523px; overflow: auto;
+width: 214px;
+}
+#map-search-result ul {
+padding: 0;
+margin: 0;
+}
+
+#map-search-result li {
+background: #fff;
+padding: 2px 5px;
+line-height: 100%;
+border-bottom: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+}
+#map-search-result li:hover {
+background: #0073EA;
+}
+#map-search-result li:hover > a {
+color: #fff;
+text-decoration: none;
+}
+#map-search-result li > a {
+color: #555;
+font: 12px/13px arial,tahoma,helvetica,sans-serif;
+}
+
+#tool-box {
+position: relative; float:left; background: #F0F0F0; padding: 0px; margin: 0px; text-align: left; overflow: hidden; z-index: 12; right: 0px; height: 550px; width: 16px; top: 0px; cursor: pointer; font-size: 1px;
+}
+.map-tool-icon {
+position: absolute; display: block; padding: 0px; margin: 0px; overflow: hidden; text-align: center; font-size: 1px; cursor: pointer; z-index: 1; visibility: visible; height: 16px; width: 16px; top: 0px; left: 0px; background-image: url('//d3o96a3f9o7chl.cloudfront.net/libraries/ext-3.2.1/resources/images/gray/panel/tool-sprites.gif'); background-position: 0 -180px;
+}
+
+#tool-box-close {
+margin: 0px;
+z-index: 0;
+height: 27px;
+width: 214px; 
+visibility: visible;
+background: #F6F6F6;
+border-bottom: 2px solid #99BBE8;
+border-right: 1px solid #99BBE8;
+}
+#tool-box-close label {
+color: #3764A0;
+font: 12px/13px arial,tahoma,helvetica,sans-serif;
+font-weight: bold;
+padding: 7px;
+}
+.map-tool-icon-close {
+cursor: pointer;
+display: block;
+height: 15px;
+position: absolute;
+top: 0;
+right: 5px;
+width: 15px;
+z-index: 2;
+background-image: url("//d3o96a3f9o7chl.cloudfront.net/libraries/ext-3.2.1/resources/images/gray/panel/tool-sprites.gif");
+background-position: 0 -165px;
+margin-top: 5px;
+}
+
+.googft-info-window {
+width: 325px;
+height: auto;
+max-height: 325px;
+overflow-x: hidden;
+overflow-y: auto;
+position: relative;
+margin-bottom: 30px;
+}
+.googft-info-window a {
+color: #3764A0;
+}
+.pollinator-size {
+color: #a42e2e;
+}
+
+.callout-link-bottom {
+background: #fff;
+margin: 0;
+padding: 0;
+}
+
+.gm-style-iw {
+    overflow: hidden !important;
+
+}
+
+.gm-style-iw > div {
+    overflow: hidden !important;
+}
+
+.info-window-header {
+font-family: Tahoma, Verdana, Arial;
+font-size: 15px; 
+font-weight: bold;
+line-height: 100%;
+color: #3764A0;
+}
+.googft-info-window p {
+font-family: Tahoma, Verdana, Arial;
+font-size: 12px; 
+line-height: 100%;
+}
+
+.googft-info-window strong {
+font-weight: 700;
+}
+
+.callout-link-bottom {
+background: #fff;
+border-top: 1px solid #ccc;
+bottom: 0;
+margin: 5px 0 0;
+padding: 0;
+position: absolute;
+width: 100%;
+}
+.callout-link-bottom a {
+line-height: 100%;
+}
+
+.callout-link-bottom li {
+ display: inline-block;
+ line-height: 100%;
+ padding: 7px 15px 0 0;
+}
+
+.googft-info-window ul.info {
+}
+
+.googft-info-window p.img {
+    position: relative;
+}
+
+.googft-info-window p.desc {
+clear: both;
+overflow: auto;
+white-space: pre-line;
+max-height: 100px;
+padding: 3px 0;
+margin: 0;
+line-height: 150%;
+}
+
+.googft-info-window li {
+clear: both;
+overflow: hidden;
+padding: 0;
+margin: 0;
+line-height: 150%;
+}
+
+.googft-info-window img {
+max-width: 350px;
+max-height: 100px;
+}
+#searchmaps {
+
+}
+#searchmaps #sq {
+width: 125px;
+height: 32px;
+float:left;
+line-height: 18px;
+}
+#searchmaps #btns {
+width: 50px;
+height: 32px;
+float:left;
+background: #fefefe;
+border: 1px solid #cccccc;
+font-family: Roboto,Arial,sans-serif;
+font-size: 10px;
+font-weight: bold;
+}
+            
